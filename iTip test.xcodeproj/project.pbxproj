@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9548240719990076000745FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548240619990076000745FE /* Foundation.framework */; };
+		9548240919990076000745FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548240819990076000745FE /* CoreGraphics.framework */; };
+		9548240B19990076000745FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548240A19990076000745FE /* UIKit.framework */; };
+		9548241119990076000745FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9548240F19990076000745FE /* InfoPlist.strings */; };
+		9548241319990076000745FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9548241219990076000745FE /* main.m */; };
+		9548241719990076000745FE /* GWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9548241619990076000745FE /* GWAppDelegate.m */; };
+		9548241A19990076000745FE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9548241819990076000745FE /* Main_iPhone.storyboard */; };
+		9548241D19990076000745FE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9548241B19990076000745FE /* Main_iPad.storyboard */; };
+		9548242019990076000745FE /* GWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9548241F19990076000745FE /* GWViewController.m */; };
+		9548242219990076000745FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9548242119990076000745FE /* Images.xcassets */; };
+		9548242919990077000745FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548242819990077000745FE /* XCTest.framework */; };
+		9548242A19990077000745FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548240619990076000745FE /* Foundation.framework */; };
+		9548242B19990077000745FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548240A19990076000745FE /* UIKit.framework */; };
+		9548243319990077000745FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9548243119990077000745FE /* InfoPlist.strings */; };
+		9548243519990077000745FE /* iTip_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9548243419990077000745FE /* iTip_testTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9548242C19990077000745FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954823FB19990076000745FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9548240219990076000745FE;
+			remoteInfo = "iTip test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9548240319990076000745FE /* iTip test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTip test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9548240619990076000745FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9548240819990076000745FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9548240A19990076000745FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9548240E19990076000745FE /* iTip test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTip test-Info.plist"; sourceTree = "<group>"; };
+		9548241019990076000745FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9548241219990076000745FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9548241419990076000745FE /* iTip test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTip test-Prefix.pch"; sourceTree = "<group>"; };
+		9548241519990076000745FE /* GWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWAppDelegate.h; sourceTree = "<group>"; };
+		9548241619990076000745FE /* GWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWAppDelegate.m; sourceTree = "<group>"; };
+		9548241919990076000745FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9548241C19990076000745FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9548241E19990076000745FE /* GWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWViewController.h; sourceTree = "<group>"; };
+		9548241F19990076000745FE /* GWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWViewController.m; sourceTree = "<group>"; };
+		9548242119990076000745FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9548242719990077000745FE /* iTip testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iTip testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9548242819990077000745FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9548243019990077000745FE /* iTip testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTip testTests-Info.plist"; sourceTree = "<group>"; };
+		9548243219990077000745FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9548243419990077000745FE /* iTip_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTip_testTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9548240019990076000745FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9548240919990076000745FE /* CoreGraphics.framework in Frameworks */,
+				9548240B19990076000745FE /* UIKit.framework in Frameworks */,
+				9548240719990076000745FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9548242419990077000745FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9548242919990077000745FE /* XCTest.framework in Frameworks */,
+				9548242B19990077000745FE /* UIKit.framework in Frameworks */,
+				9548242A19990077000745FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		954823FA19990076000745FE = {
+			isa = PBXGroup;
+			children = (
+				9548240C19990076000745FE /* iTip test */,
+				9548242E19990077000745FE /* iTip testTests */,
+				9548240519990076000745FE /* Frameworks */,
+				9548240419990076000745FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9548240419990076000745FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9548240319990076000745FE /* iTip test.app */,
+				9548242719990077000745FE /* iTip testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9548240519990076000745FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9548240619990076000745FE /* Foundation.framework */,
+				9548240819990076000745FE /* CoreGraphics.framework */,
+				9548240A19990076000745FE /* UIKit.framework */,
+				9548242819990077000745FE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9548240C19990076000745FE /* iTip test */ = {
+			isa = PBXGroup;
+			children = (
+				9548241519990076000745FE /* GWAppDelegate.h */,
+				9548241619990076000745FE /* GWAppDelegate.m */,
+				9548241819990076000745FE /* Main_iPhone.storyboard */,
+				9548241B19990076000745FE /* Main_iPad.storyboard */,
+				9548241E19990076000745FE /* GWViewController.h */,
+				9548241F19990076000745FE /* GWViewController.m */,
+				9548242119990076000745FE /* Images.xcassets */,
+				9548240D19990076000745FE /* Supporting Files */,
+			);
+			path = "iTip test";
+			sourceTree = "<group>";
+		};
+		9548240D19990076000745FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9548240E19990076000745FE /* iTip test-Info.plist */,
+				9548240F19990076000745FE /* InfoPlist.strings */,
+				9548241219990076000745FE /* main.m */,
+				9548241419990076000745FE /* iTip test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9548242E19990077000745FE /* iTip testTests */ = {
+			isa = PBXGroup;
+			children = (
+				9548243419990077000745FE /* iTip_testTests.m */,
+				9548242F19990077000745FE /* Supporting Files */,
+			);
+			path = "iTip testTests";
+			sourceTree = "<group>";
+		};
+		9548242F19990077000745FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9548243019990077000745FE /* iTip testTests-Info.plist */,
+				9548243119990077000745FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9548240219990076000745FE /* iTip test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9548243819990077000745FE /* Build configuration list for PBXNativeTarget "iTip test" */;
+			buildPhases = (
+				954823FF19990076000745FE /* Sources */,
+				9548240019990076000745FE /* Frameworks */,
+				9548240119990076000745FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iTip test";
+			productName = "iTip test";
+			productReference = 9548240319990076000745FE /* iTip test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9548242619990077000745FE /* iTip testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9548243B19990077000745FE /* Build configuration list for PBXNativeTarget "iTip testTests" */;
+			buildPhases = (
+				9548242319990077000745FE /* Sources */,
+				9548242419990077000745FE /* Frameworks */,
+				9548242519990077000745FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9548242D19990077000745FE /* PBXTargetDependency */,
+			);
+			name = "iTip testTests";
+			productName = "iTip testTests";
+			productReference = 9548242719990077000745FE /* iTip testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954823FB19990076000745FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gabe Walker";
+				TargetAttributes = {
+					9548242619990077000745FE = {
+						TestTargetID = 9548240219990076000745FE;
+					};
+				};
+			};
+			buildConfigurationList = 954823FE19990076000745FE /* Build configuration list for PBXProject "iTip test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954823FA19990076000745FE;
+			productRefGroup = 9548240419990076000745FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9548240219990076000745FE /* iTip test */,
+				9548242619990077000745FE /* iTip testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9548240119990076000745FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9548241D19990076000745FE /* Main_iPad.storyboard in Resources */,
+				9548242219990076000745FE /* Images.xcassets in Resources */,
+				9548241A19990076000745FE /* Main_iPhone.storyboard in Resources */,
+				9548241119990076000745FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9548242519990077000745FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9548243319990077000745FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954823FF19990076000745FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9548241719990076000745FE /* GWAppDelegate.m in Sources */,
+				9548242019990076000745FE /* GWViewController.m in Sources */,
+				9548241319990076000745FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9548242319990077000745FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9548243519990077000745FE /* iTip_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9548242D19990077000745FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9548240219990076000745FE /* iTip test */;
+			targetProxy = 9548242C19990077000745FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9548240F19990076000745FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9548241019990076000745FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9548241819990076000745FE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9548241919990076000745FE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9548241B19990076000745FE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9548241C19990076000745FE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9548243119990077000745FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9548243219990077000745FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9548243619990077000745FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9548243719990077000745FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9548243919990077000745FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTip test/iTip test-Prefix.pch";
+				INFOPLIST_FILE = "iTip test/iTip test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9548243A19990077000745FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTip test/iTip test-Prefix.pch";
+				INFOPLIST_FILE = "iTip test/iTip test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9548243C19990077000745FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTip test.app/iTip test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTip test/iTip test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iTip testTests/iTip testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9548243D19990077000745FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTip test.app/iTip test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTip test/iTip test-Prefix.pch";
+				INFOPLIST_FILE = "iTip testTests/iTip testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954823FE19990076000745FE /* Build configuration list for PBXProject "iTip test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9548243619990077000745FE /* Debug */,
+				9548243719990077000745FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9548243819990077000745FE /* Build configuration list for PBXNativeTarget "iTip test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9548243919990077000745FE /* Debug */,
+				9548243A19990077000745FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9548243B19990077000745FE /* Build configuration list for PBXNativeTarget "iTip testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9548243C19990077000745FE /* Debug */,
+				9548243D19990077000745FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954823FB19990076000745FE /* Project object */;
+}
