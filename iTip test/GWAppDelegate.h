@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h> //SOMETHING WRONG
 
-@interface GWAppDelegate : UIResponder <UIApplicationDelegate>
+@interface GWAppDelegate : UIResponder <UIApplicationDelegate>{
+    
+    CMMotionManager *motionManager;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (readonly) CMMotionManager *motionManager;
 
 @end

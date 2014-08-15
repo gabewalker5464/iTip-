@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953B3B3A199BF0C700DA308B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B3B39199BF0C700DA308B /* CoreMotion.framework */; };
 		9548240719990076000745FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548240619990076000745FE /* Foundation.framework */; };
 		9548240919990076000745FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548240819990076000745FE /* CoreGraphics.framework */; };
 		9548240B19990076000745FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9548240A19990076000745FE /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		953B3B39199BF0C700DA308B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		9548240319990076000745FE /* iTip test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTip test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9548240619990076000745FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9548240819990076000745FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953B3B3A199BF0C700DA308B /* CoreMotion.framework in Frameworks */,
 				9548240919990076000745FE /* CoreGraphics.framework in Frameworks */,
 				9548240B19990076000745FE /* UIKit.framework in Frameworks */,
 				9548240719990076000745FE /* Foundation.framework in Frameworks */,
@@ -81,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		953B3AF4199AA39600DA308B /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		954823FA19990076000745FE = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		9548240519990076000745FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				953B3B39199BF0C700DA308B /* CoreMotion.framework */,
 				9548240619990076000745FE /* Foundation.framework */,
 				9548240819990076000745FE /* CoreGraphics.framework */,
 				9548240A19990076000745FE /* UIKit.framework */,
@@ -114,6 +125,7 @@
 		9548240C19990076000745FE /* iTip test */ = {
 			isa = PBXGroup;
 			children = (
+				953B3AF4199AA39600DA308B /* iPad */,
 				9548241519990076000745FE /* GWAppDelegate.h */,
 				9548241619990076000745FE /* GWAppDelegate.m */,
 				9548241819990076000745FE /* Main_iPhone.storyboard */,
@@ -394,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTip test/iTip test-Prefix.pch";
 				INFOPLIST_FILE = "iTip test/iTip test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -408,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTip test/iTip test-Prefix.pch";
 				INFOPLIST_FILE = "iTip test/iTip test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -473,6 +487,7 @@
 				9548243A19990077000745FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9548243B19990077000745FE /* Build configuration list for PBXNativeTarget "iTip testTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +496,7 @@
 				9548243D19990077000745FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
